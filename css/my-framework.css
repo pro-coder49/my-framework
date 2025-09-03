@@ -1,0 +1,17 @@
+/* Starter Framework CSS */
+
+/* Button hover effect */
+.my-hover {
+  background: #3490dc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.my-hover:hover {
+  background: #2779bd;
+  transform: scale(1.05);
+}
