@@ -1,19 +1,18 @@
-/* Starter Framework CSS */
-
-/* Button hover effect */
-.my-hover {
-  background: #3490dc;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  border-radius: 6px;
+/* Cursor styles */
+.typing-cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 0.8s infinite;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
-.my-hover:hover {
-  background: #2779bd;
-  transform: scale(1.05);
+/* Block cursor */
+.my-typing-block-cursor .typing-cursor {
+  width: 8px;
+  background: black;
+  height: 1em;
 }
-
-
