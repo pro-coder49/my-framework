@@ -41,9 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const typingEls = document.querySelectorAll("[class*='my-typing']");
+  const typingEl = document.querySelectorAll("[class*='my-typing']");
 
-  typingEls.forEach(el => {
+  typingEl.forEach(el => {
     const text = el.innerText;
     el.innerText = "";
 
